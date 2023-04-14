@@ -1,5 +1,5 @@
-/*Escreva um programa em java para definir o consumo médio de um automóvel sendo fornecido a 
- * distância total percorrida pelo automóvel e o total de combustível gasto (litros).*/
+/*Escreva um programa em java para definir o consumo mï¿½dio de um automï¿½vel sendo fornecido a 
+ * distï¿½ncia total percorrida pelo automï¿½vel e o total de combustï¿½vel gasto (litros).*/
 package exercicios;
 
 import java.util.Scanner;
@@ -25,7 +25,7 @@ public class ConsumoAutomovel {
 		op = leia.nextInt();
 		
 		if(op<1 || op>3){
-			System.out.println("Número invalido. Tente novamente!!!");
+			System.out.println("Nï¿½mero invalido. Tente novamente!!!");
 		}
 		//gasolina
 		if (op==1) {
@@ -47,11 +47,12 @@ public class ConsumoAutomovel {
 		
 		kmL= dist/consumo;
 		
-		System.out.printf("\nConsumo médio: %.1f",kmL);
-		System.out.println(" Km/L");
-		System.out.printf("Gasto médio: R$ %.2f", preco);
+		System.out.printf("\nConsumo mï¿½dio: %.1f",kmL);
+		System.out.println("\n Km/L");
+		System.out.printf("\nGasto mï¿½dio: R$ %.2f", preco);
 		
 		leia.close();
+
 	}
 
 }
